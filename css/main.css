@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 body {
+    box-sizing: border-box;
     background-color: lightgray;
 }
+
 
 header {
     font-family: 'Anton', sans-serif;
@@ -11,6 +13,8 @@ header {
 
 main {
     font-family: 'Abel', sans-serif;;
+    display: flex;
+    justify-content: center;
 }
 
 .circle {
@@ -45,4 +49,6 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    width: 250px;
 }
