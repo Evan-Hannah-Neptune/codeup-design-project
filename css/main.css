@@ -33,7 +33,7 @@ main {
     justify-content: center;
     align-items: center;
     color: whitesmoke;
-    margin: auto;
+    margin: 1em;
 }
 
 .sm-circle {
