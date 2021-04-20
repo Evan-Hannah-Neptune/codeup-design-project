@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body {
+    background-color: lightgray;
+}
+
+header {
+    font-family: 'Anton', sans-serif;
+}
+
+main {
+    font-family: 'Abel', sans-serif;;
+}
+
+.circle {
+    padding: .5em;
+    border: solid whitesmoke;
+    border-radius: 50%;
+    height: 105px;
+    width: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.red {
+    background-color: #e65638;
+}
+
+.orange {
+    background-color: #dea03d;
+}
+
+.green {
+    background-color: #7cb06c;
+}
+
+.blue {
+    background-color: #00aba9;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
