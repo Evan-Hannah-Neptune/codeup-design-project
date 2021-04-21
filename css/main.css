@@ -14,9 +14,7 @@ header, nav, h5 {
     /*padding: 0;*/
 }
 
-a {
-    color: grey;
-}
+
 
 main {
     font-family: 'Abel', sans-serif;;
@@ -58,7 +56,7 @@ main {
 }
 
 .orange {
-    background-color: #dea03d;
+    background-color: #EB9D3A;
 }
 
 .green {
