@@ -15,7 +15,6 @@ header, nav, h5 {
 }
 
 
-
 main {
     font-family: 'Abel', sans-serif;;
     display: flex;
@@ -37,6 +36,18 @@ main {
     align-items: center;
     color: whitesmoke;
     margin: 1em;
+}
+
+.logo {
+    /*padding: .5em;*/
+    border-radius: 50%;
+    height: 105px;
+    width: 105px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*color: whitesmoke;*/
+    /*margin: 1em;*/
 }
 
 .sm-circle {
