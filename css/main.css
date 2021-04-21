@@ -8,9 +8,14 @@ body {
     /*margin: 0;*/
 }
 
-header, h5 {
+
+header, nav, h5 {
     font-family: 'Anton', sans-serif;
     /*padding: 0;*/
+}
+
+a {
+    color: grey;
 }
 
 main {
