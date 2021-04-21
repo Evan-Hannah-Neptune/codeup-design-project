@@ -25,7 +25,7 @@ main {
 
 .circle {
     padding: .5em;
-    border: solid white;
+    border: solid 6px white;
     border-radius: 50%;
     height: 105px;
     width: 105px;
@@ -41,6 +41,11 @@ main {
     height: 18px;
     border-radius: 50%;
     margin: .5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
 }
 
 .red {
@@ -60,5 +65,5 @@ main {
 }
 
 img {
-    border: #e6e6e6 10px solid;
+    border: #e6e6e6 5px solid;
 }
