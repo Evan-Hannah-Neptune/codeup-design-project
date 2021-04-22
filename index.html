@@ -6,14 +6,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body class="text-center justify-content-center">
+<body class="text-center justify-content-center m-auto">
 
+<div id='white-line' class="container white-line bg-white my-5 p-0"></div>
 
-
-<div class="container-fluid white-line bg-white my-5 w-100"></div>
-
+<div id="xs" class="d-xs-inline-flex  d-sm-none">
 <img class="logo" src="img/images/logo.png" alt="logo">
-
     <div>
         <h1 class="col-12 abel">codeup design</h1>
     </div>
@@ -23,6 +21,25 @@
         <div class="m-2">BLOG</div>
         <div class="m-2">CONTACT</div>
     </div>
+</div>
+
+<div id="sm" class="row align-items-center justify-content-center abel d-none d-sm-inline-flex d-md-none">
+    <div class="mt-4 mr-4">SERVICES</div>
+    <div class="mt-4 mr-4">WORK</div>
+    <img class="logo" src="img/images/logo.png" alt="logo">
+    <div class="mt-4 ml-4">BLOG</div>
+    <div class="mt-4 ml-4">CONTACT</div>
+    <h1 class="col-12 abel">codeup design</h1>
+</div>
+
+<div id="md" class="row abel d-none d-md-inline-flex">
+    <img class="logo m-4" src="img/images/logo.png" alt="logo">
+    <h1 class="abel mr-auto mt-5 p-1">codeup design</h1>
+    <div class="mt-5 mr-4">SERVICES</div>
+    <div class="mt-5 mr-4">WORK</div>
+    <div class="mt-5 mr-4">BLOG</div>
+    <div class="mt-5 mr-4">CONTACT</div>
+</div>
 <!-------------------^^^ NAVBAR ^^^^---------------------------------------->
 
 <br>
@@ -38,28 +55,30 @@
         <li class="circle green mx-2 my-1">Support</li>
         <li class="circle blue mx-2 my-1">Host</li>
     </ul>
+    <hr class="d-none d-sm-block">
+
 </header>
 
 <!-------------------^^^ HEADER ^^^----------------------------------->
 
-<br>
-<br>
-<hr class="d-none d-sm-block">
-<br>
+<br class="d-sm-none">
+<br class="d-sm-none">
+<br class="d-sm-none">
 
 <!----------------------MAIN----------------------------------->
 
-<main class="d-flex row anton">
+<main class="container d-flex row anton justify-content-center m-auto">
 
-    <div class="container abel p-0">
-        <h6>SELECTED WORK</h6>
+    <div class="container abel p-0 selected row">
+        <h6 class="col-8 p-0">SELECTED WORK</h6>
+        <H6 class="col-4 pl-5 ">THE LAST</H6>
     </div>
 
     <br>
     <br>
 
 <!------------------FIRST BOXES!!!---------------------->
-<div class="d-flex col-md-8 p-1">
+<div class="container d-flex col-md-8 p-1">
     <div class="d-flex justify-content-center row p-2">
         <div class="flex-wrap col-8 col-sm-6 col-md-6 mb-5">
                 <img class="w-100 big-img" src="img/images/apple-ipad.jpg" alt="ipad">
@@ -104,25 +123,24 @@
     </div>
 </div>
 
-
 <!-------------------SMALLER ITEMS-------------->
 
-<section class="d-none d-md-block col-4 text-left p-2 pl-5">
-    <div class="d-flex mb-4">
+<section class="d-none d-md-block col-4 text-left px-3 py-3 pl-5">
+    <div class="d-flex mb-5">
         <img class="col-3 thumbnail" src="img/images/mobile-phone.jpg" alt="wat">
         <h4 class="col-9 m-auto">THE ADMIN BAR AND ABSOLUTE POSITIONING</h4>
     </div>
-    <div class="d-flex mb-4">
-        <img class="col-3 thumbnail" src="img/images/mobile-phone.jpg" alt="wat">
+    <div class="d-flex mb-5">
+        <img class="col-3 thumbnail" src="img/images/head.jpg" alt="wat">
         <h4 class="col-9 m-auto">THE ADMIN BAR AND ABSOLUTE POSITIONING</h4>
     </div>
-    <div class="d-flex mb-4">
-        <img class="col-3 thumbnail" src="img/images/mobile-phone.jpg" alt="wat">
+    <div class="d-flex mb-5">
+        <img class="col-3 thumbnail" src="img/images/google-search.jpg" alt="wat">
         <h4 class="col-9 m-auto">THE ADMIN BAR AND ABSOLUTE POSITIONING</h4>
     </div>
     <br>
         <h6 class="abel"><i class="fab fa-twitter"></i> Last Tweet</h6>
-        <p class="abel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque expedita, sint. Aspernatur autem eveniet mollitia placeat, quae tenetur veritatis voluptates.</p>
+        <p class="abel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque expedita, sint. Aspernatur autem eveniet mollitia placeat, quae tenetur.</p>
 </section>
 </main>
 
